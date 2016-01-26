@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>bootstrap</title>
     <meta name="description" content="">
@@ -20,24 +21,125 @@
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
-    
-  </head>
-  <body>
+
+</head>
+
+<body>
     <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
     <!-- sisältö alkaa -->
-    Tähän sit jotain.
+    <div class="bg" style="padding-bottom: 100px">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Brand</a>
+                </div>
+                <div class="collapse navbar-collapse" id="example-navbar-collapse">
+
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About us <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Information <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="ekateksti">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-xs-3" style="padding-top: 60px;">
+                    </div>
+                    <div class="col-md-5 col-xs-5" style="padding-top: 60px;">
+                        <h1> This page is definitely something else </h1>
+                        <p> You can learn incredible things </p>
+                        <p>
+                            <button type="button" class="btn btn-primary btn-lg outline" id="checkit">Check it out</button>
+                            <button type="button" class="btn btn-default btn-lg" id="signup">Sign up</button>
+                        </p>
+                    </div>
+                    <div class="col-md-5 col-xs-4" style="padding-top: 60px;">
+                        <h1>Boom!</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 col-xs-2" style="padding-top: 60px;">
+        </div>
+        <div class="col-md-6 col-xs-8" style="padding-top: 60px;">
+            <h3>Need and easy way to buy a banana?</h3>
+            <p>Find out how.</p>
+        </div>
+        <div class="col-md-3 col-xs-2" style="padding-top: 60px;">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2 col-xs-2" style="padding-top: 60px;">
+        </div>
+        <div class="col-md-4 col-xs-4" style="padding-top: 60px;">
+            <h3> You dont need anything fancy</h3>
+            <p> Find out how </p>
+        </div>
+        <div class="col-md-4 col-xs-4" style="padding-top: 60px;">
+            <h1> Banana! </h1>
+        </div>
+        <div class="col-md-2 col-xs-2" style="padding-top: 60px;">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2 col-xs-2" style="padding-top: 30px;">
+        </div>
+        <div class="col-md-4 col-xs-4" style="padding-top: 30px;">
+            <h1> Money! </h1>
+        </div>
+        <div class="col-md-4 col-xs-4" style="padding-top: 30px;">
+            <h3> It is really very easy, you don't need to be a monkey to do it</h3>
+            <p> Maybe you need some cash </p>
+            <p> It continues </p>
+        </div>
+        <div class="col-md-2 col-xs-2" style="padding-top: 30px;">
+        </div>
+    </div>
+
     <!-- sisältö loppuu -->
-      
+
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
-    
+
     <!-- build:js(.) scripts/plugins.js -->
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
@@ -52,11 +154,12 @@
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
     <!-- endbuild -->
-    
+
 
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
 
-  </body>
+</body>
+
 </html>
