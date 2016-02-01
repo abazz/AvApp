@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Bootstrap task
 1. Create new folder and clone this repo there in terminal/shell/bash
     * cloning: git clone address_of_this_repo
@@ -14,3 +15,6 @@
   * git remote set-url origin http://github.com/YOU/YOUR_REPO
   * git add .
   * git push
+=======
+# bs-task
+>>>>>>> refs/remotes/origin/master

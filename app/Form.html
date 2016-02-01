@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>Form</title>
+</head>
+
+<body ng-controller="UploadController">
+    
+    
+
+    <form action="http://util.mw.metropolia.fi/ImageRekt/api/v2/upload" method="post" enctype="multipart/form-data">
+
+
+        <input type="file" name="file" accept="" onchange="angular.element(this).scope().setMediaFile(this)">
+        <br>
+        <br> User:
+        <br>
+        <input type="text" name="user">
+        <br>
+        <br> Title:
+        <br>
+        <input type="text" name="title">
+        <br>
+        <br> Description:
+        <br>
+        <input type="text" name="description">
+        <br>
+        <br> Type:
+        <br>
+        <input type="radio" name="type" value="image"> Image
+        <br>
+        <input type="radio" name="type" value="video"> Video
+        <br>
+        <input type="radio" name="type" value="audio"> Audio
+        <br>
+        <br>
+        <button ng-click="uploadFile();">Upload</button>
+        
+    </form>
+
+</body>
+
+</html>
